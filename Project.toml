@@ -3,6 +3,20 @@ uuid = "c7d1f9b8-b99e-47b5-b36d-039c3a3fe353"
 authors = ["anand <anandj@uchicago.edu> and contributors"]
 version = "0.1.0"
 
+[deps]
+CSV = "336ed68f-0bac-5ca0-87d4-7b16caf5d00b"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
+DiffEqFlux = "aae7a2af-3d4f-5e19-a356-7da93b79d9d0"
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+Flux = "587475ba-b771-5e3f-ad9e-33799f191a9c"
+GeometricFlux = "7e08b658-56d3-11e9-2997-919d5b31e4ea"
+GeometryBasics = "5c1252a2-5f33-56bf-86c9-59e7332b4326"
+JLD2 = "033835bb-8acc-5ee8-8aae-3f567f8a3819"
+LightGraphs = "093fc24a-ae57-5d10-9952-331d41423f4d"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+MeshIO = "7269a6da-0436-5bbc-96c2-40638cbb6118"
+SparseArrays = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
+
 [compat]
 julia = "1"
 

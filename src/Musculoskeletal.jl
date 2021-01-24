@@ -1,5 +1,5 @@
 module Musculoskeletal
 
-# Write your package code here.
+include("model.jl")
 
-end
+end # module
